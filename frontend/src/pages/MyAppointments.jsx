@@ -52,7 +52,7 @@ const MyAppointments = () => {
 
   }
 
-  //chatgpt:start
+  //start
   const handlePayment = async (appointmentId) => {
   try {
 

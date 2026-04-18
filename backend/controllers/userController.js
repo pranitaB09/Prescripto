@@ -250,7 +250,7 @@ const cancelAppointment = async (req,res) => {
 
 // }
 
-// chatgpt payment function start
+//  payment function start
 const payAppointment = async (req, res) => {
   try {
 
@@ -276,4 +276,13 @@ const payAppointment = async (req, res) => {
 }
 //end 
 
-export {registerUser, loginUser, getProfile, updateProfile, bookAppointment, listAppointment, cancelAppointment, payAppointment}
+export {
+    registerUser,
+    loginUser,
+    getProfile, 
+    updateProfile, 
+    bookAppointment, 
+    listAppointment, 
+    cancelAppointment, 
+    payAppointment
+}
